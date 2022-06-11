@@ -6,6 +6,7 @@ const names = ["Halo", "Angel", "Nyoman", "Ketut", "Aisyah"];
 // "1. Nama"
 // "2. Nama"
 // ...
+
 const sorter = (names, i) => {
   const arr = [];
   let hasil = i(names);
@@ -15,7 +16,7 @@ const sorter = (names, i) => {
       arr.push(j);
   }
 
-  return hasil;
+  return arr;
 };
 
 // TODO: Fungsi untuk mengurutkan array of string secara ascending
